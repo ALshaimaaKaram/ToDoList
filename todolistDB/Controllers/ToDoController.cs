@@ -116,7 +116,7 @@ namespace todolistDB.Controllers
 		//POST: ToDo/MarkDone
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public ActionResult MarkDone(int id)
+		public ActionResult MarkDone(int id) //to change single note status
 		{
 			try
 			{
